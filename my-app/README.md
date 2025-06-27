@@ -25,7 +25,7 @@ Track your favorites, run competitions, or just explore the world in a visual wa
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/country-clicker.git
+git clone https://github.com/JulianGan/country-clicker.git
 cd country-clicker
 npm install
 npm run dev
@@ -33,41 +33,17 @@ npm run dev
 
 Then open `http://localhost:5173` in your browser.
 
----
 
-## 📁 Project Structure
-
-```
-├── public/
-│   └── flags/             # Flag images (e.g., US.png, FR.png)
-├── src/
-│   ├── components/        # React components like CountryCard
-│   ├── data/              # List of countries with Alpha-2 codes
-│   ├── App.jsx            # Main application component
-│   └── main.jsx           # Vite entry point
-├── index.html
-├── package.json
-└── README.md
-```
 
 ---
 
 ## 🗺️ Data Source
 
 - Country names and Alpha-2 codes: [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)
-- Flags: [flagcdn.com](https://flagcdn.com/) or hosted locally
+- Flags: [flagpedia.net/download](https://flagpedia.net/download) or hosted locally
 
 ---
 
-## 🚀 Deployment
-
-Easily deploy using:
-
-- **[Vercel](https://vercel.com/)** 
-- **[Netlify](https://www.netlify.com/)** 
-- **GitHub Pages** (with Vite’s base path config)
-
----
 
 ## 🤝 Contributing
 
@@ -75,11 +51,5 @@ Want to improve this project?
 Issues and pull requests are welcome. Feel free to add features like:
 
 - Country search/filter
-- Persistent counters per user (backend or cloud sync)
+- Persistent counters per user
 - Leaderboards
-
----
-
-## 📄 License
-
-MIT License © 2025 Your Name
